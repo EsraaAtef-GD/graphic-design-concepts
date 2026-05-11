@@ -34,48 +34,35 @@ Then generate 3 distinct concepts, each with a completely different creative dir
 
 ## Concept Structure
 
-For each concept, provide:
+Present all 3 concepts as a structured table in Arabic (RTL). All text in the table must be in Arabic, written right to left.
 
-### Concept Name
-A memorable, evocative name for the concept (not generic like "Concept A").
+For each concept, produce a markdown table with this exact structure:
 
-**Core Idea**
-One sentence capturing the soul of this concept. What is the big idea?
+---
 
-**Visual Direction**
-- Style: (e.g., minimalist Swiss, maximalist editorial, retro 70s, brutalist, organic/natural, futuristic, handcrafted, geometric, etc.)
-- Mood: 3-5 adjectives that describe the feeling
-- References: Real-world references for inspiration (designers, movements, brands, eras)
+### 🎨 الكونسبت الأول — [اسم الكونسبت]
 
-**Color Palette**
-- Primary: color name + hex code + why this color
-- Secondary: color name + hex code + why this color
-- Accent: color name + hex code + why this color
-- Explain the psychological and cultural meaning of the palette
+| العنصر | التفاصيل |
+|--------|----------|
+| **الهدف** | ما الذي يحققه هذا الكونسبت؟ لمن هو مناسب؟ ما المشكلة التي يحلها؟ |
+| **الفكرة الأساسية** | جملة واحدة تلخص روح الكونسبت |
+| **الأسلوب البصري** | النمط + المزاج + المراجع الإلهامية |
+| **الألوان** | اللون الأساسي (#hex) + اللون الثانوي (#hex) + لون التأكيد (#hex) + المعنى النفسي |
+| **الخطوط** | خط العناوين + خط النص + سبب التوافق |
+| **العناصر البصرية** | الأشكال والأنماط والملمس وأسلوب الصور |
+| **التطبيق** | كيف يظهر الكونسبت على اللوجو / التصميم الرئيسي / تطبيق مفاجئ |
+| **Prompt للـ Mood Board** | `[prompt جاهز للنسخ على Midjourney أو DALL-E يصف الجو العام]` |
+| **Prompt للتطبيق** | `[prompt جاهز للنسخ يصف التصميم المطبّق على المنتج الرئيسي]` |
 
-**Typography**
-- Display font: name + character description
-- Body font: name + character description
-- How they interact and why this pairing works
+---
 
-**Key Visual Elements**
-- Shapes, patterns, textures, or motifs central to this concept
-- Imagery style (photography, illustration, iconography)
-- Layout principles (grid, whitespace, density)
+Repeat the same table format for concepts 2 and 3, with different names and completely different directions.
 
-**How It Applies**
-Show how the concept translates across:
-- Logo/mark
-- Primary deliverable (poster, social post, packaging, etc.)
-- One unexpected application that shows the concept's range
-
-**Image Generation Prompts**
-Provide 2 ready-to-use prompts the user can copy directly into Midjourney, DALL-E, or any AI image generator:
-
-- *Mood Board Prompt*: A prompt that captures the overall feeling, color palette, and aesthetic of the concept. Should evoke the atmosphere, not a specific deliverable.
-- *Application Prompt*: A prompt that shows the concept applied to the primary deliverable (poster, logo, packaging, etc.).
-
-Format each prompt clearly labeled and ready to copy. Make prompts detailed, specific, and optimized for AI image generation — include style, lighting, color, composition, and mood cues.
+CRITICAL RULES for the table:
+- All content inside the table must be in Arabic
+- The two Prompt cells are the ONLY exception — keep prompts in English as they are used in English-language AI tools
+- Make the prompts detailed, specific, and optimized for AI image generation — include style, lighting, color, composition, and mood cues
+- Each concept must feel completely different from the others in mood, palette, and style
 
 ## Creative Principles
 
